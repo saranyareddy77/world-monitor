@@ -1,12 +1,13 @@
-# 🛡️ WORLD MONITOR
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀%20LIVE%20DEMO-Open%20Application-success?style=for-the-badge)](https://world-monitor-ru3c.onrender.com/) [![GitHub](https://img.shields.io/badge/💻%20GITHUB-Repository-black?style=for-the-badge&logo=github)](https://github.com/saranyareddy77/world-monitor)
+# 🛡️ WORLD MONITOR
 
 **Security Assessment & Proof-of-Concept Documentation Platform**
 
-A modern web-based platform for identifying, documenting, validating, and reporting security vulnerabilities in authorized applications.
+[![Live Demo](https://img.shields.io/badge/🚀%20LIVE%20DEMO-Open%20Application-success?style=for-the-badge)](https://world-monitor-ru3c.onrender.com/)
+[![GitHub](https://img.shields.io/badge/💻%20GITHUB-Repository-black?style=for-the-badge&logo=github)](https://github.com/saranyareddy77/world-monitor)
 
----
+</div>
 
 ## 🚀 Live Demo
 
