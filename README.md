@@ -1,241 +1,201 @@
+🛡️ WORLD MONITOR
+Security Assessment & Proof-of-Concept Documentation Platform
 
-<div align="center">
+Live Demo GitHub
 
-# 🎓 AICTE SmartVerify
+🚀 Live Demo
+🌐 Security Assessment Application: Open World Monitor
 
-### AI-Powered Document Verification and Application Scrutiny Platform
+💻 GitHub Repository: saranyareddy77/world-monitor
 
-<p>
-  <a href="https://sih2026-jefo.onrender.com">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Project-2ea44f?style=for-the-badge" alt="Live Demo"/>
-  </a>
-  <a href="https://github.com/saranyareddy77/sih2026">
-    <img src="https://img.shields.io/badge/GitHub-View_Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository"/>
-  </a>
-</p>
+The application provides a centralized interface for entering an application link and vulnerability name, searching assessment data, and displaying complete vulnerability findings with proof-of-concept evidence.
 
-<p>
-  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=flat&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=flat&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-Language-3178C6?style=flat&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Supabase-Backend-3FCF8E?style=flat&logo=supabase&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=flat&logo=postgresql&logoColor=white"/>
-</p>
+📖 About the Project
+WORLD MONITOR is a security assessment platform designed to document vulnerabilities identified during authorized security testing.
 
-</div>
+The platform allows a security analyst to enter the application/project link and vulnerability name. When a matching finding exists, the platform displays the complete vulnerability assessment including technical details, severity, reproduction steps, proof of concept, evidence, business impact, and remediation recommendations.
 
----
+✨ Key Features
+🛡️ Security vulnerability assessment
+🔎 Vulnerability search
+🌐 Application/project link input
+📋 Complete vulnerability findings
+⚠️ Severity and CVSS information
+🧪 Controlled proof-of-concept
+📸 Screenshot evidence
+🎥 PoC video evidence
+💼 Business impact assessment
+🛠️ Remediation recommendations
+📄 Security report generation
+📥 Evidence and report download
+🗄️ Supabase database integration
+🎨 Professional peach-themed interface
+☁️ Render deployment
+🛠️ Technology Stack
+🎨 Frontend
+⚛️ React
+⚡ Vite
+🔷 TypeScript
+🎨 CSS
+⚙️ Backend & Database
+🟢 Node.js
+🚀 Express.js
+🗄️ Supabase
+🐘 PostgreSQL
+🛡️ Security Assessment
+OWASP ZAP
+Python
+Security assessment datasets
+Evidence collection
+☁️ Deployment
+Render
+🔄 How It Works
+The application follows a simple security assessment workflow:
 
-## 📌 About the Project
+🌐 Open the World Monitor Security Assessment platform.
+🔗 Enter the authorized application/project link.
+🔎 Enter the vulnerability name.
+🚀 Search the assessment dataset.
+✅ If found, display the complete vulnerability finding.
+❌ If not found, display Not Found.
+📋 Display vulnerability title and description.
+🎯 Display affected component and severity.
+📊 Display CVSS/CWE/WASC/OWASP information where available.
+🔄 Display steps to reproduce.
+🧪 Display the controlled proof of concept.
+📸 Display screenshots and supporting evidence.
+🎥 Display PoC video evidence where available.
+💼 Display business impact.
+🛠️ Display remediation recommendations.
+📥 Allow available reports and evidence to be downloaded.
+🧪 Vulnerability Assessment
+For every vulnerability found, the platform provides a complete assessment containing:
 
-**AICTE SmartVerify** is a smart document verification and application scrutiny platform designed to streamline institutional application processing.
+Vulnerability Title
+Name of the identified security vulnerability.
 
-The platform provides a centralized system where institutions can submit applications and supporting documents, while authorized administrative users can review submissions, verify documents, track application progress, and provide feedback.
+Description
+Technical explanation of the identified issue.
 
-It aims to improve transparency, reduce manual verification effort, and make the application scrutiny process more organized and efficient.
+Affected Component
+Application component, endpoint, security control, or functionality affected by the vulnerability.
 
----
+Severity Rating
+Severity classification and CVSS information where available.
 
-## 👩‍💻 Project Repository
+Steps to Reproduce
+Clear steps required to reproduce and validate the finding in an authorized testing environment.
 
-**GitHub:** https://github.com/saranyareddy77/sih2026
+Proof of Concept
+A controlled proof-of-concept demonstrating the security issue without affecting production users or data.
 
-**Live Demo:** https://sih2026-jefo.onrender.com
+Evidence
+Supporting screenshots, HTTP requests/responses, OWASP ZAP findings, browser evidence, and PoC videos where available.
 
----
+Business Impact Assessment
+Description of the potential confidentiality, integrity, availability, privacy, or business impact associated with the finding.
 
-## 🎯 Key Objectives
+Remediation Recommendations
+Practical recommendations for mitigating or resolving the identified security issue.
 
-- Simplify institutional application submission.
-- Centralize document uploads and application records.
-- Support efficient document scrutiny and verification.
-- Provide role-based access for different users.
-- Enable application status tracking.
-- Improve transparency through feedback and correction workflows.
-- Reduce repetitive manual verification work.
+📋 Vulnerability Report
+Field	Information
+Vulnerability Title	Security vulnerability name
+Description	Technical vulnerability description
+Affected Component	Affected application component
+Affected URL	Relevant application URL
+Parameter	Relevant input parameter
+Severity	Vulnerability severity
+CVSS	CVSS score/vector
+CWE	CWE classification
+WASC	WASC classification
+OWASP	OWASP category
+Detection Source	Security testing tool/source
+Steps to Reproduce	Reproduction procedure
+Proof of Concept	Controlled PoC
+Screenshots	Visual evidence
+Video	PoC video evidence
+Business Impact	Potential impact
+Remediation	Recommended mitigation
+🧪 Example Vulnerability
+⚠️ CSP: Failure to Define Directive with No Fallback
+Description:
+A Content Security Policy configuration issue identified during an authorized security assessment.
 
----
+Affected Component:
+Web application security headers.
 
-## ✨ Key Features
+Severity: Medium
 
-### 🏢 Institution User
+Confidence: High
 
-- Institution registration and login.
-- Submit institutional applications.
-- Upload supporting documents.
-- View submitted application details.
-- Track application status.
-- Receive scrutiny feedback.
-- Review correction requests and update submissions.
+CWE: CWE-693
 
-### 🛡️ Super Admin
+WASC: WASC-15
 
-- Administrative dashboard.
-- View and oversee applications.
-- Monitor application processing.
-- Manage administrative operations.
-- Track scrutiny progress.
+Detection Source: OWASP ZAP
 
-### 🔍 Scrutiny Officer
+Steps to Reproduce:
 
-- Access assigned or available applications.
-- Review submitted documents.
-- Examine application information.
-- Record verification findings.
-- Provide feedback and correction requests.
-- Support application scrutiny workflows.
+Open the authorized application.
+Inspect the HTTP response headers.
+Locate the Content-Security-Policy header.
+Review the configured directives.
+Capture the relevant security-header evidence.
+Proof of Concept:
+Controlled validation of the observed security-header configuration.
 
-### 📄 Document Verification
+Evidence:
+OWASP ZAP alert screenshot, browser Developer Tools screenshot, HTTP response-header evidence, and supporting application screenshots.
 
-- Document upload and storage.
-- PDF document viewing using PDF.js.
-- SHA-256 hashing support for document integrity checks, where implemented.
-- Validation workflows for reviewing submitted documents.
-- Structured feedback for document-related issues.
+Business Impact:
+Documents the potential security impact associated with the observed configuration.
 
----
+Remediation:
+Review and appropriately configure the Content Security Policy directives.
 
-## 🧰 Technology Stack
-
-| Category | Technologies |
-|---|---|
-| Frontend | React, Vite, TypeScript |
-| Styling | CSS |
-| Backend Services | Supabase |
-| Database | PostgreSQL |
-| Authentication | Supabase Auth |
-| File Storage | Supabase Storage |
-| PDF Processing | PDF.js |
-| Document Integrity | SHA-256 hashing, where implemented |
-
----
-
-## 🏗️ System Modules
-
-| Module | Description |
-|---|---|
-| Authentication | Secure user login and role-based access |
-| Institution Dashboard | Application submission and tracking |
-| Application Management | View and manage submitted applications |
-| Document Management | Upload, store, and access documents |
-| Document Scrutiny | Review and verify submitted documents |
-| Feedback Management | Provide corrections and verification feedback |
-| Admin Dashboard | Administrative monitoring and oversight |
-
----
-
-## 👥 User Roles
-
-| User Role | Responsibilities |
-|---|---|
-| Institution User | Submit applications, upload documents, track status, and respond to feedback |
-| Super Admin | Oversee applications and monitor administrative activities |
-| Scrutiny Officer | Review applications and documents and provide scrutiny feedback |
-
----
-
-## 🔐 Admin Evaluation Credentials
-
-The following accounts are intended for authorized evaluation and role-based dashboard testing.
-
-| Role | Login Email | Password |
-|---|---|---|
-| Super Admin | director.approval@aicte-india.org | SuperAdminPassword2026! |
-| Scrutiny Officer | scrutiny.officer@aicte-india.org | ScrutinyOfficerPassword2026! |
-
-**Evaluation note:** Replace the password placeholders with the approved evaluation credentials in the access-restricted evaluation copy. Do not publish reusable passwords in a public repository.
-
----
-
-## 🔄 Application Workflow
-
-1. Institution user registers or logs in.
-2. Institution submits an application.
-3. Required supporting documents are uploaded.
-4. Application information and documents become available for scrutiny.
-5. Scrutiny Officer reviews the application.
-6. Verification findings and feedback are recorded.
-7. Institution user views the application status and feedback.
-8. Institution can make requested corrections where applicable.
-9. Super Admin monitors the overall application process.
-
----
-
-## 🧪 Example Verification Scenario
-
-**Scenario: Institutional Document Review**
-
-| Item | Example |
-|---|---|
-| Submitted Document | Institutional Certificate |
-| Document Status | Requires Review |
-| Scrutiny Action | Document examination |
-| Finding | Required information is missing |
-| Feedback | Institution must submit a corrected document |
-| Next Step | Institution uploads the corrected document |
-
-This demonstrates how the platform can support a structured document scrutiny and correction workflow.
-
----
-
-## 🌟 Benefits
-
-- Centralized institutional application management.
-- Improved document review organization.
-- Role-based access and responsibilities.
-- Better visibility into application progress.
-- Structured scrutiny feedback.
-- Reduced manual coordination.
-- Improved transparency in application processing.
-
----
-
-## 🏛️ System Architecture
-
-```text
-                 ┌─────────────────────────────┐
-                 │          USERS              │
-                 └──────────────┬──────────────┘
+🏗️ Project Architecture
+                         👤 Security Analyst
                                 │
-             ┌──────────────────┼──────────────────┐
-             │                  │                  │
-             ▼                  ▼                  ▼
-     ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
-     │ Institution  │   │ Super Admin  │   │  Scrutiny    │
-     │    User      │   │              │   │   Officer    │
-     └──────┬───────┘   └──────┬───────┘   └──────┬───────┘
-            │                  │                  │
-            └──────────────────┼──────────────────┘
-                               │
-                               ▼
-                  ┌────────────────────────┐
-                  │     React + Vite       │
-                  │    TypeScript UI       │
-                  └────────────┬───────────┘
-                               │
-                               ▼
-                  ┌────────────────────────┐
-                  │    Supabase Services   │
-                  ├────────────────────────┤
-                  │ Authentication         │
-                  │ Application Services   │
-                  │ File Storage           │
-                  └────────────┬───────────┘
-                               │
-                  ┌────────────┴───────────┐
-                  │                        │
-                  ▼                        ▼
-         ┌────────────────┐      ┌────────────────┐
-         │  PostgreSQL    │      │ Supabase       │
-         │   Database     │      │ File Storage   │
-         └────────────────┘      └────────────────┘
-                  │
-                  ▼
-         ┌────────────────────┐
-         │ Document Review    │
-         │ PDF.js Processing  │
-         │ SHA-256 Checks     │
-         │ Where Implemented  │
-         └────────────────────┘
-```
-
+                                ▼
+                     🌐 Security Assessment UI
+                                │
+                                ▼
+                    🔗 Application / Project Link
+                                +
+                       🔎 Vulnerability Name
+                                │
+                                ▼
+                       🔍 Vulnerability Search
+                                │
+                                ▼
+                        🗄️ Assessment Dataset
+                                │
+                         ┌──────┴──────┐
+                         │             │
+                       FOUND       NOT FOUND
+                         │             │
+                         ▼             ▼
+                 📋 Vulnerability   ❌ Not Found
+                     Details
+                         │
+                         ▼
+                    🧪 Proof of Concept
+                         │
+                         ▼
+                    📸 Evidence
+                         │
+                         ▼
+                  🎥 PoC Video
+                         │
+                         ▼
+                  💼 Business Impact
+                         │
+                         ▼
+                 🛠️ Remediation
+                         │
+                         ▼
+                  📄 Security Report
+                         │
+                         ▼
+                     📥 Download i need like this
