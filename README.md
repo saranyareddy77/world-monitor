@@ -36,6 +36,32 @@ It aims to improve transparency, reduce manual verification effort, and make the
 
 ---
 
+## 🚀 Live Project
+
+<div align="center">
+
+### Explore AICTE SmartVerify
+
+<a href="https://sih2026-jefo.onrender.com">
+  <img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-Visit_AICTE_SmartVerify-2ea44f?style=for-the-badge" alt="Open Live Demo"/>
+</a>
+
+<a href="https://github.com/saranyareddy77/sih2026">
+  <img src="https://img.shields.io/badge/VIEW_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github" alt="View Source Code"/>
+</a>
+
+</div>
+
+---
+
+## 👩‍💻 Project Repository
+
+**GitHub:** https://github.com/saranyareddy77/sih2026
+
+**Live Demo:** https://sih2026-jefo.onrender.com
+
+---
+
 ## 🎯 Key Objectives
 
 - Simplify institutional application submission.
@@ -132,8 +158,8 @@ The following accounts are intended for authorized evaluation and role-based das
 
 | Role | Login Email | Password |
 |---|---|---|
-| Super Admin | director.approval@aicte-india.org | [Insert Super Admin evaluation password] |
-| Scrutiny Officer | scrutiny.officer@aicte-india.org | [Insert Scrutiny Officer evaluation password] |
+| Super Admin | director.approval@aicte-india.org | SuperAdminPassword2026! |
+| Scrutiny Officer | scrutiny.officer@aicte-india.org | ScrutinyOfficerPassword2026! |
 
 **Evaluation note:** Replace the password placeholders with the approved evaluation credentials in the access-restricted evaluation copy. Do not publish reusable passwords in a public repository.
 
@@ -179,32 +205,6 @@ This demonstrates how the platform can support a structured document scrutiny an
 - Structured scrutiny feedback.
 - Reduced manual coordination.
 - Improved transparency in application processing.
-
----
-
-## 🚀 Live Project
-
-<div align="center">
-
-### Explore AICTE SmartVerify
-
-<a href="https://sih2026-jefo.onrender.com">
-  <img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-Visit_AICTE_SmartVerify-2ea44f?style=for-the-badge" alt="Open Live Demo"/>
-</a>
-
-<a href="https://github.com/saranyareddy77/sih2026">
-  <img src="https://img.shields.io/badge/VIEW_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github" alt="View Source Code"/>
-</a>
-
-</div>
-
----
-
-## 👩‍💻 Project Repository
-
-**GitHub:** https://github.com/saranyareddy77/sih2026
-
-**Live Demo:** https://sih2026-jefo.onrender.com
 
 ---
 
