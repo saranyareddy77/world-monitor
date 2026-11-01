@@ -41,19 +41,6 @@ It aims to improve transparency, reduce manual verification effort, and make the
 <div align="center">
 
 ### Explore AICTE SmartVerify
-
-<a href="https://sih2026-jefo.onrender.com">
-  <img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-Visit_AICTE_SmartVerify-2ea44f?style=for-the-badge" alt="Open Live Demo"/>
-</a>
-
-<a href="https://github.com/saranyareddy77/sih2026">
-  <img src="https://img.shields.io/badge/VIEW_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github" alt="View Source Code"/>
-</a>
-
-</div>
-
----
-
 ## 👩‍💻 Project Repository
 
 **GitHub:** https://github.com/saranyareddy77/sih2026
