@@ -36,11 +36,6 @@ It aims to improve transparency, reduce manual verification effort, and make the
 
 ---
 
-## 🚀 Live Project
-
-<div align="center">
-
-### Explore AICTE SmartVerify
 ## 👩‍💻 Project Repository
 
 **GitHub:** https://github.com/saranyareddy77/sih2026
